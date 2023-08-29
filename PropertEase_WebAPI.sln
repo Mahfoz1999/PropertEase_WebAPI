@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertEase_WebAPI", "PropertEase_WebAPI\PropertEase_WebAPI.csproj", "{D338B80C-1DC8-43CF-8787-7AAAEC373335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{481DDB6B-3408-4B82-96AE-F19033B829EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertEase_Models", "PropertEase_Models\PropertEase_Models.csproj", "{1245C494-30BB-495F-86F6-2CF9D3EA5876}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertEase_Database", "PropertEase_Database\PropertEase_Database.csproj", "{64162DA4-E8E9-4209-B8FB-823AF11F741E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commend", "Commend", "{689E6838-5B20-4978-95E3-EFF5B1AA8741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertEase_Commends", "PropertEase_Commends\PropertEase_Commends.csproj", "{7CE396B1-4F5F-4E8C-85C6-6263AFD05D6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{8AC80FA7-A4E9-4E00-9228-C2AF83174419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertEase_DTO", "PropertEase_DTO\PropertEase_DTO.csproj", "{E7D11E6E-314A-40D3-9E8F-C952E7A7DE4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D338B80C-1DC8-43CF-8787-7AAAEC373335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D338B80C-1DC8-43CF-8787-7AAAEC373335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D338B80C-1DC8-43CF-8787-7AAAEC373335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D338B80C-1DC8-43CF-8787-7AAAEC373335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1245C494-30BB-495F-86F6-2CF9D3EA5876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1245C494-30BB-495F-86F6-2CF9D3EA5876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1245C494-30BB-495F-86F6-2CF9D3EA5876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1245C494-30BB-495F-86F6-2CF9D3EA5876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64162DA4-E8E9-4209-B8FB-823AF11F741E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64162DA4-E8E9-4209-B8FB-823AF11F741E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64162DA4-E8E9-4209-B8FB-823AF11F741E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64162DA4-E8E9-4209-B8FB-823AF11F741E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE396B1-4F5F-4E8C-85C6-6263AFD05D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE396B1-4F5F-4E8C-85C6-6263AFD05D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE396B1-4F5F-4E8C-85C6-6263AFD05D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE396B1-4F5F-4E8C-85C6-6263AFD05D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D11E6E-314A-40D3-9E8F-C952E7A7DE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D11E6E-314A-40D3-9E8F-C952E7A7DE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D11E6E-314A-40D3-9E8F-C952E7A7DE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D11E6E-314A-40D3-9E8F-C952E7A7DE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1245C494-30BB-495F-86F6-2CF9D3EA5876} = {481DDB6B-3408-4B82-96AE-F19033B829EE}
+		{64162DA4-E8E9-4209-B8FB-823AF11F741E} = {481DDB6B-3408-4B82-96AE-F19033B829EE}
+		{7CE396B1-4F5F-4E8C-85C6-6263AFD05D6D} = {689E6838-5B20-4978-95E3-EFF5B1AA8741}
+		{E7D11E6E-314A-40D3-9E8F-C952E7A7DE4C} = {8AC80FA7-A4E9-4E00-9228-C2AF83174419}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {210D5C1F-45B5-4B69-9036-C0F407B7B580}
+	EndGlobalSection
+EndGlobal

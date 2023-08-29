@@ -1,0 +1,502 @@
+﻿{
+  "Scenario": "Regression",
+  "DataSource": {
+    "Type": "SQL",
+    "Version": 1,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Id",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Area",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Quality",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Latitude",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Longitude",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Price",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SizeInSqft",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PricePerSqft",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "NoOfBedrooms",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "NoOfBathrooms",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "MaidRoom",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "UnFurnished",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Balcony",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "BarbecueArea",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "BuiltInWardrobes",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "CentralAc",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "ChildrensPlayArea",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "ChildrensPool",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Concierge",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "CoveredParking",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "KitchenAppliances",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "LobbyInBuilding",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "MaidService",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Networked",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PetsAllowed",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PrivateGarden",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PrivateGym",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PrivateJacuzzi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PrivatePool",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Security",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SharedGym",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Study",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SharedPool",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SharedSpa",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "VastuCompliant",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "ViewOfLandmark",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "ViewOfWater",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "WalkInCloset",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Boolean",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      }
+    ],
+    "ConnectionString": "Data Source=DESKTOP-S7P487B;Initial Catalog=PropertEaseDB;Integrated Security=True",
+    "CommandString": "SELECT CAST([Id] as REAL), CAST([Area] as NVARCHAR(MAX)), CAST([Quality] as NVARCHAR(MAX)), CAST([Latitude] as REAL), CAST([Longitude] as REAL), CAST([Price] as REAL), CAST([SizeInSqft] as REAL), CAST([PricePerSqft] as REAL), CAST([NoOfBedrooms] as REAL), CAST([NoOfBathrooms] as REAL), [MaidRoom], [UnFurnished], [Balcony], [BarbecueArea], [BuiltInWardrobes], [CentralAc], [ChildrensPlayArea], [ChildrensPool], [Concierge], [CoveredParking], [KitchenAppliances], [LobbyInBuilding], [MaidService], [Networked], [PetsAllowed], [PrivateGarden], [PrivateGym], [PrivateJacuzzi], [PrivatePool], [Security], [SharedGym], [Study], [SharedPool], [SharedSpa], [VastuCompliant], [ViewOfLandmark], [ViewOfWater], [WalkInCloset] FROM [dbo].[Properties]",
+    "DatabaseName": "PropertEaseDB",
+    "SelectedTableDbo": "dbo",
+    "TableName": "Properties"
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestRegression",
+        "Score": 0.86465394897349523,
+        "RuntimeInSeconds": 2.196,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e3 * e5",
+          "e0": {
+            "OutputColumnNames": [
+              "Quality",
+              "MaidRoom",
+              "UnFurnished",
+              "Balcony",
+              "BarbecueArea",
+              "BuiltInWardrobes",
+              "CentralAc",
+              "ChildrensPlayArea",
+              "ChildrensPool",
+              "Concierge",
+              "CoveredParking",
+              "KitchenAppliances",
+              "LobbyInBuilding",
+              "MaidService",
+              "Networked",
+              "PetsAllowed",
+              "PrivateGarden",
+              "PrivateGym",
+              "PrivateJacuzzi",
+              "PrivatePool",
+              "Security",
+              "SharedGym",
+              "Study",
+              "SharedPool",
+              "SharedSpa",
+              "VastuCompliant",
+              "ViewOfLandmark",
+              "ViewOfWater",
+              "WalkInCloset"
+            ],
+            "InputColumnNames": [
+              "Quality",
+              "MaidRoom",
+              "UnFurnished",
+              "Balcony",
+              "BarbecueArea",
+              "BuiltInWardrobes",
+              "CentralAc",
+              "ChildrensPlayArea",
+              "ChildrensPool",
+              "Concierge",
+              "CoveredParking",
+              "KitchenAppliances",
+              "LobbyInBuilding",
+              "MaidService",
+              "Networked",
+              "PetsAllowed",
+              "PrivateGarden",
+              "PrivateGym",
+              "PrivateJacuzzi",
+              "PrivatePool",
+              "Security",
+              "SharedGym",
+              "Study",
+              "SharedPool",
+              "SharedSpa",
+              "VastuCompliant",
+              "ViewOfLandmark",
+              "ViewOfWater",
+              "WalkInCloset"
+            ]
+          },
+          "e1": {
+            "OutputColumnNames": [
+              "Id",
+              "Latitude",
+              "Longitude",
+              "SizeInSqft",
+              "PricePerSqft",
+              "NoOfBedrooms",
+              "NoOfBathrooms"
+            ],
+            "InputColumnNames": [
+              "Id",
+              "Latitude",
+              "Longitude",
+              "SizeInSqft",
+              "PricePerSqft",
+              "NoOfBedrooms",
+              "NoOfBathrooms"
+            ]
+          },
+          "e2": {
+            "InputColumnName": "Area",
+            "OutputColumnName": "Area"
+          },
+          "e3": {
+            "InputColumnNames": [
+              "Quality",
+              "MaidRoom",
+              "UnFurnished",
+              "Balcony",
+              "BarbecueArea",
+              "BuiltInWardrobes",
+              "CentralAc",
+              "ChildrensPlayArea",
+              "ChildrensPool",
+              "Concierge",
+              "CoveredParking",
+              "KitchenAppliances",
+              "LobbyInBuilding",
+              "MaidService",
+              "Networked",
+              "PetsAllowed",
+              "PrivateGarden",
+              "PrivateGym",
+              "PrivateJacuzzi",
+              "PrivatePool",
+              "Security",
+              "SharedGym",
+              "Study",
+              "SharedPool",
+              "SharedSpa",
+              "VastuCompliant",
+              "ViewOfLandmark",
+              "ViewOfWater",
+              "WalkInCloset",
+              "Id",
+              "Latitude",
+              "Longitude",
+              "SizeInSqft",
+              "PricePerSqft",
+              "NoOfBedrooms",
+              "NoOfBathrooms",
+              "Area"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "NumberOfTrees": 4,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "Price",
+            "FeatureColumnName": "Features"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "OneHotEncoding",
+      "e1": "ReplaceMissingValues",
+      "e2": "FeaturizeText",
+      "e3": "Concatenate",
+      "e4": "FastTreeRegression",
+      "e5": "FastForestRegression",
+      "e6": "LbfgsPoissonRegressionRegression",
+      "e7": "SdcaRegression"
+    },
+    "Schema": "e0 * e1 * e2 * e3 * (e4 + e5 + e6 + e7)",
+    "MetricName": "RSquared",
+    "ModelFilePath": "C:\\Users\\Mahfoz\\source\\repos\\PropertEase_WebAPI\\PropertEase_ML\\PropertyValuePrediction.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 4,
+  "TrainingOption": {
+    "Version": 2,
+    "Subsampling": false,
+    "Type": "RegressionTrainingOption",
+    "TrainingTime": 60,
+    "LabelColumn": "Price",
+    "ValidationOption": {
+      "Version": 0,
+      "Type": "CrossValidationValidationOption",
+      "NumberOfFolds": 5
+    }
+  }
+}
